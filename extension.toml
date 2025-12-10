@@ -1,6 +1,6 @@
 id = "codebuddy"
 name = "CodeBuddy Code"
-version = "2.9.0"
+version = "2.16.0"
 schema_version = 1
 authors = ["Tencent CodeBuddy Code <codebuddy@tencent.com>"]
 description = "Tencent Cloud's official intelligent coding tool - CodeBuddy Code is an intelligent programming assistant that deeply integrates into your development environment, accurately understands your project structure, and helps you program efficiently through natural language interaction—automating repetitive tasks, deeply analyzing code logic, and optimizing development workflows. Supports seamless use in terminals and IDEs, making programming smarter and more efficient."
@@ -10,31 +10,31 @@ repository = "https://github.com/jasonwang82/codebuddy-code-zed"
 name = "CodeBuddy Code"
 
 [agent_servers.codebuddy.targets.darwin-aarch64]
-archive = "https://registry.npmjs.org/@tencent-ai/codebuddy-code/-/codebuddy-code-2.9.0.tgz"
+archive = "https://registry.npmjs.org/@tencent-ai/codebuddy-code/-/codebuddy-code-2.16.0.tgz"
 cmd = "node"
 args = ["./package/bin/codebuddy", "--acp"]
 env = { CODEBUDDY_DISABLE_AUTO_UPDATE = "1" }
 
 [agent_servers.codebuddy.targets.darwin-x86_64]
-archive = "https://registry.npmjs.org/@tencent-ai/codebuddy-code/-/codebuddy-code-2.9.0.tgz"
+archive = "https://registry.npmjs.org/@tencent-ai/codebuddy-code/-/codebuddy-code-2.16.0.tgz"
 cmd = "node"
 args = ["./package/bin/codebuddy", "--acp"]
 env = { CODEBUDDY_DISABLE_AUTO_UPDATE = "1" }
 
 [agent_servers.codebuddy.targets.linux-aarch64]
-archive = "https://registry.npmjs.org/@tencent-ai/codebuddy-code/-/codebuddy-code-2.9.0.tgz"
+archive = "https://registry.npmjs.org/@tencent-ai/codebuddy-code/-/codebuddy-code-2.16.0.tgz"
 cmd = "node"
 args = ["./package/bin/codebuddy", "--acp"]
 env = { CODEBUDDY_DISABLE_AUTO_UPDATE = "1" }
 
 [agent_servers.codebuddy.targets.linux-x86_64]
-archive = "https://registry.npmjs.org/@tencent-ai/codebuddy-code/-/codebuddy-code-2.9.0.tgz"
+archive = "https://registry.npmjs.org/@tencent-ai/codebuddy-code/-/codebuddy-code-2.16.0.tgz"
 cmd = "node"
 args = ["./package/bin/codebuddy", "--acp"]
 env = { CODEBUDDY_DISABLE_AUTO_UPDATE = "1" }
 
 [agent_servers.codebuddy.targets.windows-x86_64]
-archive = "https://registry.npmjs.org/@tencent-ai/codebuddy-code/-/codebuddy-code-2.9.0.tgz"
+archive = "https://registry.npmjs.org/@tencent-ai/codebuddy-code/-/codebuddy-code-2.16.0.tgz"
 cmd = "node"
 args = ["./package/bin/codebuddy", "--acp"]
 env = { CODEBUDDY_DISABLE_AUTO_UPDATE = "1" }
